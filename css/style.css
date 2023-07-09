@@ -185,26 +185,41 @@ span{
 }
 .blog-head{
     text-align: center;
-    /* align-items: center;
-    justify-content: center; */
+    width: 70%;
+    margin: 0 auto;
+    justify-content: center;
+    /* align-items: center; */
+    font-size: 35px;
+    color: rgb(94, 93, 93);
+    padding: 40px 0;
+}
+.blog-head p{
+    text-align: center;
 }
 .box-content{
 
 }
 .box{
+    display: flexbox;
     width: 400px;
-    height: 460px;
+    height: auto;
     box-sizing: border-box;
     box-shadow: 4px 5px 8px grey;
-    border-radius: 5px 8px;
+    border-radius: 8px;
  
 }
 .box-img{
-    width: 300px;
+    width: 400px;
+    border-radius: 8px 8p 0 0;
 }
 .box-content{
     display: flex;
     gap: 20px;
     padding: 30px;
     justify-content: space-around;
+}
+.box h3, p{
+    padding: 15px 25px 5px;
+    text-align: justify;
+    font-size: 26px;
 }
