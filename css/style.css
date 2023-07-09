@@ -76,10 +76,11 @@
 
 }
 .btn1{
-    background-color: rgb(213, 9, 9);
+    background-color: rgb(251, 43, 43);
     color: white;
 }
-.service-section{
+.service-contrainer{
+    display: flex;
 
 }
 .service-column
