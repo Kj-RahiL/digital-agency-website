@@ -60,7 +60,7 @@
     font-weight: bold;
 
 }
-.banner-heading span{
+span{
     color: red;
 }
 .banner-des{
@@ -79,12 +79,132 @@
     background-color: rgb(251, 43, 43);
     color: white;
 }
+.service-section{
+    background-image: url('../asset/image/footer-bg.png'), linear-gradient(rgba(6, 5, 5),rgb(0, 0, 0,0.9));
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .service-contrainer{
     display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(211, 209, 209, 0.8);
+    margin: auto;
+    padding: 80px;
+
 
 }
-.service-column
-.button
-.service-heading
-.service-details
-.service-list
+.button{
+    padding: 15px 25px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 35px;
+    margin-right: 15px;
+    font-size: 20px;
+
+}
+.service-column{
+   
+}
+.service-heading{
+    font-size: 45px;
+    margin-bottom: 8px;
+}
+.service-details{
+    font-size: 20px;
+}
+.service-list{
+
+}
+.service-own{
+    margin-right: 15px;
+    
+}
+.author{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+.img-a{
+    border-radius: 50%;
+    width: 100px;
+}
+
+.img-content{
+    display: flex;
+    color: black;
+    text-align: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.img-content img{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+    margin-top: 25px;
+
+}
+.img-content div{
+    width: 280px;
+    height: 300px;
+    background: white;
+    margin: 10px;
+    border-radius: 5px;
+}
+.appointment-content{
+    width: 80%;
+    margin: auto;
+    background-color: rgb(206, 2, 2);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+    padding: 20px 5px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin-top: -70px;
+
+}
+.icon{
+   display: flex ;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   border-right: 2px solid rgb(122, 113, 113);
+   font-weight: bold;
+   margin-right: 10px;
+}
+.icon-contrac{
+    padding: 0 0 0 10px;
+}
+.icon-contrac h4{
+    
+    font-size: 40px;
+}
+.blog-head{
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+}
+.box-content{
+
+}
+.box{
+    width: 400px;
+    height: 460px;
+    box-sizing: border-box;
+    box-shadow: 4px 5px 8px grey;
+    border-radius: 5px 8px;
+ 
+}
+.box-img{
+    width: 300px;
+}
+.box-content{
+    display: flex;
+    gap: 20px;
+    padding: 30px;
+    justify-content: space-around;
+}
