@@ -38,11 +38,36 @@
 /* banner section */
 
 .banner-section{
+    background-image: url('../asset/image/background.jpg'), linear-gradient(rgba(108, 105, 105, 0.5), rgb(100, 88, 88,0.8));
+    background-blend-mode: overlay;
+
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
 
 }
 .banner-container{
-
+   text-align: center;
+   margin: 0 auto;
+   color: white;
+   
 }
 .banner-heading{
-    
+    font-size: 80px;
+    color: white;
+    font-weight: bold;
+
+}
+.banner-heading span{
+    color: red;
+}
+.banner-des{
+    font-size: 25px;
+    /* margin: 0 120px; */
+
+}
+.btn{
+
 }
