@@ -218,8 +218,43 @@ span{
     padding: 30px;
     justify-content: space-around;
 }
+
 .box h3, p{
     padding: 15px 25px 5px;
     text-align: justify;
     font-size: 26px;
+}
+
+.footer-contrainer{
+    color: white;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2px solid rgb(35, 6, 6);
+}
+
+small{
+    color: white;
+    text-align: center;
+    
+}
+.footer-c{
+    display: flexbox;
+    width: 300px;
+    padding: 20px 0 0;
+    
+}
+.footer-c h3, h5{
+    padding: 10px;
+    font-size: 18px;
+}
+.hori{
+    width: 1200px;
+    
+    margin: auto;}
+.fuh{
+    text-align: center;
 }
